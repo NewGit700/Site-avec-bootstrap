@@ -1,0 +1,50 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+}
+
+.hero {
+    position: relative;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-weight: 600;
+    color: #333;
+}
+
+
+section {
+    padding: 50px 0;
+}
+
+footer {
+    text-align: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: normal;
+}
+
+#skills, #about {
+    width: 800px;
+}
+
+.contact-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: normal;
+    border: solid 1px #333;
+}
+
+.form-container {
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
