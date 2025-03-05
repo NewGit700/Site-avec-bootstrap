@@ -12,30 +12,31 @@
 <body>
     <!-- Header -->
     <header>
-        <div>
-            <a href="#">John Doe</a>
+        <div class="container">
+            <h3>John Doe</h3>
             <nav>
                 <ul class="nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="legal.html">Mentions légales</a></li>
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="services.html">Services</a></li>
+                    <li class="nav-item"><a href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a href="legal.html">Mentions légales</a></li>
                 </ul>
             </nav> 
         </div>
     </header>
     
     <!-- Hero Section -->
-    <section>
+    <section class="hero">
         <div class="container">
-            <h1>Bonjour, je suis John Doe</h1>
-            <h2>Développeur web full stack</h2>
-            <button>En savoir plus</button>
+            <h1 class="#">Bonjour, je suis John Doe</h1>
+            <h2 class="#">Développeur web full stack</h2>
+            <button class="#">En savoir plus</button>
         </div>
     </section>
     
     <!-- Sections complémentaires / additional sections -->
+    <div class="wrapper">
     <section id="about">
       <div class="about-container">
         <h2>À Propos</h2>
@@ -54,36 +55,39 @@
         <h2>Mes compétences</h2>
         
         <div class="skill">
-            <div>HTML5 90%</div>
-            <div>90%</div>
+            <div class="skill-name">HTML5 90%</div></div>
+            <div class="progress-bar"><div class="progress html">90%</div></div>
+
         </div>
 
         <div class="skill">
-            <div>CSS3 80%</div>
-            <div>80%</div>
+            <div class="skill-name">CSS3 80%</div>
+            <div class="progress-bar"><div class="progress css">80%</div></div>
+
         </div>
 
         <div class="skill">
-            <div>JAVASCRIPT 70%</div>
-            <div>70%</div>
+            <div class="skill-name">JAVASCRIPT 70%</div>
+            <div class="progress-bar"><div class="progress js">70%</div></div>
         </div>
 
         <div class="skill">
-            <div>PHP 60%</div>
-            <div>60%</div></div>
+            <div class="skill-name">PHP 60%</div>
+            <div class="progress-bar"><div class="progress php">60%</div></div>
         </div>
 
         <div class="skill">
-            <div>REACT 50%</div>
-            <div>50%</div>
+            <div class="skill-name">REACT 50%</div>
+            <div class="progress-bar"><div class="progress react">50%</div></div>
         </div>
     </div>
     </section>
+    </div>
 
     <section id="portfolio">
         <div class="portfolio-container">
-            <h2>Mes Réalisations</h2>
-            <p>Découvrez mes projets sur GitHub.</p>
+            <h2>Portfolio</h2>
+            <p>Voici quelques-unes de mes réalisations</p>
         </div>
     </section>
     
